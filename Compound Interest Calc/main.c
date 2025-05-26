@@ -23,6 +23,7 @@ int main(){
     scanf("%d", &time);
 
     formula = 1 + (rate/(n*100));
+    
     amount = principal * pow(formula, n*time);
 
     printf("Your Interest after %d year/s will be: %.2lf",time, amount);
