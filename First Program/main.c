@@ -2,7 +2,7 @@
 
 int main() {
     
-    // SHOPPING CART PROGRAM
+    //SHOPPING CART PROGRAM
 
     char item[50] = "" ;
     float price = 0.0f;
