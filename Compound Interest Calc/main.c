@@ -26,7 +26,7 @@ int main(){
     
     amount = principal * pow(formula, n*time);
 
-    printf("Your Interest after %d year/s will be: %.2lf",time, amount);
+    printf("Your Interest after %d year/s will be Rs.%.2lf",time, amount);
 
     return 0;
 }
