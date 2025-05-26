@@ -29,7 +29,9 @@ int main(){
         cm = cm / 100;
 
         printf("%.2f Meters", cm);
-        
+    }
+    else{
+        printf("Invalid Choice");
     }
     
 
