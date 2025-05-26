@@ -8,13 +8,19 @@ int main(){
     int result = 0;
 
     printf("Enter the first number: ");
-    scanf("%d", &num1);
+    if(scanf("%d", &num1) != 1){
+        printf("Invalid Integer, please enter a number.");
+        return 1;
+    }
 
     printf("Enter the operator ( + , - , * , / ): ");
     scanf(" %c", &operator);
 
     printf("Enter the second number: ");
-    scanf("%d", &num2);
+    if(scanf("%d", &num2) != 1){
+        printf("Invalid Integer, please enter a number.");
+        return 1;
+    }
 
     switch (operator)
     {
