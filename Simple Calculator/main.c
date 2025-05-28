@@ -15,7 +15,8 @@ int main(){
 
 
     printf("Enter the operator ( + , - , * , / ): ");
-    while((operator = getchar()) != '\n' && operator != EOF);
+    fseek(stdin,0,SEEK_END);
+    scanf("%c", &operator);
 
     printf("Enter the second number: ");
     if(scanf("%d", &num2) != 1){
