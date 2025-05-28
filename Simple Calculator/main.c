@@ -13,8 +13,9 @@ int main(){
         return 1;
     }
 
+
     printf("Enter the operator ( + , - , * , / ): ");
-    scanf(" %c", &operator);
+    while((operator = getchar()) != '\n' && operator != EOF)
 
     printf("Enter the second number: ");
     if(scanf("%d", &num2) != 1){
